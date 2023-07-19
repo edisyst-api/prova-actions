@@ -1,10 +1,10 @@
 # prova-actions
 
+```
 name: Greetings su una issue nuova
 
 on: [pull_request_target, issues]
 
-```
 jobs:
   greeting:
     runs-on: ubuntu-latest
